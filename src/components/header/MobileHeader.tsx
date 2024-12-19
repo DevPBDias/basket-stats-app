@@ -25,7 +25,9 @@ const MobileHeader = () => {
               <X size={28} color="#0B1D51" />
             </button>
           </nav>
-          <Navbar />
+          <div onClick={() => setOpen(!open)}>
+            <Navbar />
+          </div>
         </header>
       )}
     </main>

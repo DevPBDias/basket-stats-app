@@ -4,7 +4,10 @@ import CtaBtn from "../hero/CtaBtn";
 
 const HowSection = () => {
   return (
-    <main className="text-[#0B1D51] w-full px-4 py-16 flex flex-col lg:flex-row gap-12">
+    <main
+      id="how"
+      className="text-[#0B1D51] w-full px-4 py-16 flex flex-col lg:flex-row gap-12"
+    >
       <HowFlowMobile />
       <CtaBtn />
     </main>
