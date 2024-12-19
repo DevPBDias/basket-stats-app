@@ -3,7 +3,7 @@ import about from "../../../public/images/about.svg";
 
 const AboutImage = () => {
   return (
-    <picture className="w-full h-full">
+    <picture className="w-full h-full lg:w-1/2">
       <Image
         src={about}
         alt="Basketall court image"

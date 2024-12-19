@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const MainHeader = () => {
   return (
-    <main className="hidden">
+    <main className="hidden lg:flex flex-row justify-between px-16 py-4">
       <Logo />
       <Navbar />
     </main>

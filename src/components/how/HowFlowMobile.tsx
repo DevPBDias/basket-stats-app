@@ -4,14 +4,14 @@ import Image from "next/image";
 
 const HowFlowMobile = () => {
   return (
-    <section className="w-full flex flex-col gap-9">
-      <h2 className="w-full font-bold text-2xl mb-7">
+    <section className="w-full flex flex-col justify-center items-center gap-9">
+      <h2 className="w-full font-bold text-2xl mb-7 lg:mb-16">
         Como Funciona: Estatísticas em 4 Passos Simples
       </h2>
       {cardContent.map((item) => (
         <div
           key={item.id}
-          className="w-full flex flex-col justify-center items-center gap-9"
+          className="w-full flex flex-col justify-center items-center lg:w-1/3 gap-9"
         >
           <div className="w-full flex flex-row justify-center items-center gap-4">
             <Image
