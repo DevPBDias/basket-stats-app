@@ -8,17 +8,17 @@ export const navLinks: Links[] = [
   {
     id: 1,
     text: "Início",
-    path: "#home",
+    path: "/#home",
   },
   {
     id: 2,
     text: "Quem somos",
-    path: "#about",
+    path: "/#about",
   },
   {
     id: 3,
     text: "Como funciona",
-    path: "#how",
+    path: "/#how",
   },
   {
     id: 4,
